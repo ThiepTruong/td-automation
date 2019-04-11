@@ -19,7 +19,8 @@ public class FileUtil {
 
             String st;
             while ((st = br.readLine()) != null){
-                lines.add(st);
+                if (!st.isEmpty())
+                    lines.add(st);
             }
         }catch (FileNotFoundException e){
             LOGGER.error(e.toString());

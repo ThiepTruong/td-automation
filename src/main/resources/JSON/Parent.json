@@ -1,0 +1,83 @@
+[
+  {
+    "tenantId": "LAZADA_ID",
+    "createPackageRequestDTO": {
+      "packagePlanDTO": {
+        "lastMile": {
+          "shippingProviderCode": "23d7661c-dc67-44af-a6e3-308405ba5113",
+          "trackingNumber": "TEST1602573984${int n = 6; return (long)(Math.random()*9*Math.pow(10,n-1)) + (long)Math.pow(10,n-1)}"
+        },
+        "firstMile": {
+          "shippingProviderCode": "23d7661c-dc67-44af-a6e3-308405ba5113",
+          "trackingNumber": "TEST1602573984${int n = 6; return (long)(Math.random()*9*Math.pow(10,n-1)) + (long)Math.pow(10,n-1)}"
+        }
+      },
+      "destinationAddress": {
+        "address": "Jl. MT. Haryono Kav 18, Jakarta Selatan 12810 (Depan Counter DayTrans), DKI Jakarta, Kota Jakarta Selatan,Tebet",
+        "phone": "08123123123",
+        "name": "Customer",
+        "details": "Jl. MT. Haryono Kav 18, Jakarta Selatan 12810 (Depan Counter DayTrans)",
+        "geocodingDTO": {
+          "latitude": -6.242593,
+          "longitude": 106.852409
+        },
+        "type": "HOME",
+        "email": "testorigin@gmail.com",
+        "addressId": "R5802399"
+      },
+      "originAddress": {
+        "address": "Pacital Place Lt 20, Jl Gatot Subroto Kav. 18 (warehouse) (default),DKI Jakarta,Kota Jakarta Selatan,Mampang Prapatan",
+        "phone": "08189693652",
+        "name": "VTestD11",
+        "details": "Pacital Place Lt 20, Jl Gatot Subroto Kav. 18 (warehouse) (default)",
+        "geocodingDTO": {
+          "latitude": -6.232065,
+          "longitude": 106.82023
+        },
+        "type": "HOME",
+        "email": "ascidtest1@gmail.com",
+        "addressId": "R5802397"
+      },
+      "shippingType": "marketplacexxx",
+      "platformPromiseMaxTime": "2020-10-22T11:39:46+08:00",
+      "platformPromiseMinTime": "2020-10-22T11:39:46+08:00",
+      "platformOrderCreationTime": "2020-10-22T12:00:00+08:00",
+      "customerOrderCreationTime": "2020-10-22T11:39:46+08:00",
+      "packageType": "Sales_order",
+      "warehouseCode": "dropshipping",
+      "directReturnToMerchant": false,
+      "fulfillmentCompletionTime": "2020-10-22T11:39:46+08:00",
+      "paymentType": "MIXEDCARD",
+      "platformOrderNumber": "163343${int n = 6; return (long)(Math.random()*9*Math.pow(10,n-1)) + (long)Math.pow(10,n-1)}",
+      "currency": "IDR",
+      "itemList": [
+        {
+          "unitPrice": 0,
+          "quantity": 1,
+          "itemCategory": "16657",
+          "voucher": 0,
+          "length": 10,
+          "weight": 1000,
+          "sellerShortCode": "ID16BHF",
+          "fulfillmentType": "MP",
+          "paidPrice": 0,
+          "sellerId": "16098272212021",
+          "name": "test p2p baru",
+          "platformTag": "lazmall",
+          "width": 2,
+          "sku": "1009796571_ID-1511434213",
+          "platformItemId": "FO073911026961007",
+          "height": 15
+        }
+      ],
+      "solutionId": "",
+      "platformName": "LAZADA_ID",
+      "platformOrderId": "LDMFO600${int n = 6; return (long)(Math.random()*9*Math.pow(10,n-1)) + (long)Math.pow(10,n-1)}",
+      "deliveryOption": "standard",
+      "properties": {
+        "addressMd5": "6c4ff964-1a0e-e904-2e1e-dbb9346dbec8",
+        "testTag": "9"
+      }
+    }
+  }
+]
